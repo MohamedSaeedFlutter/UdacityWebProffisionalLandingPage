@@ -40,7 +40,7 @@ let sectionId;
  * 
  */
 
-// build the nav
+// build the navbar menu
 function buildNav() {
     for (section of sections) {
         sectionName = section.getAttribute('data-nav');
